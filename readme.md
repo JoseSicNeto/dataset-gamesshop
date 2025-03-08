@@ -1,85 +1,125 @@
-# Relatório de Análise de Dados de Vendas
-
-## Introdução
-
-O objetivo deste relatório é apresentar uma análise aprofundada das vendas realizadas pelo fabricante, tomando como base os dados fornecidos. Atuando no mercado há anos, a empresa é reconhecida pela ampla diversidade de produtos e pela dedicação tanto a consumidores finais quanto a clientes corporativos. Historicamente, os meses de setembro e outubro se destacaram como os períodos de maior faturamento, impulsionados por campanhas promocionais e sazonalidades. Neste estudo, foram examinados padrões, oportunidades de melhoria e estratégias para ampliar os resultados. O foco da análise inclui:
-
-- Desempenho de vendas ao longo do tempo.
-- Detecção de outliers em quantidade vendida e descontos aplicados.
-- Relações entre variáveis (ex.: preço unitário, quantidade e descontos).
-- Segmentação de vendas por região e plataforma.
+# 📊 Relatório de Análise de Dados de Vendas
 
 ---
 
-## Resumo dos Dados
+## 📌 Introdução
 
-Os dados analisados abrangem 60 transações que incluem as seguintes informações principais:
+Este relatório apresenta uma análise detalhada das vendas realizadas pelo fabricante, com base nos dados fornecidos. A empresa, conhecida por sua ampla gama de produtos e atuação em diversos mercados, busca identificar oportunidades para maximizar resultados futuros. As principais áreas de análise incluem:
 
-- Produtos vendidos (SKU e nome).
-- Datas de venda e países de entrega.
-- Quantidades, preços unitários e valores totais de vendas.
-- Descontos aplicados e uso de cupons.
-- Plataformas de vendas (ex.: AliExpress, Shopee).
-
----
-
-## Análise e Resultados
-
-### 1. Tendências Temporais
-
-A análise revelou variações significativas nas vendas mês a mês. Um gráfico de barras foi desenvolvido para destacar os resultados mensais e apontar períodos de alta e baixa:
-
-- **Pontos de Alta**: Setembro e outubro registraram os maiores faturamentos, refletindo campanhas e sazonalidade.
-- **Pontos de Baixa**: Meses como fevereiro mostraram menor demanda, indicando sazonalidade ou engajamento reduzido.
+- 📈 **Desempenho de vendas ao longo do tempo**.
+- 🔍 **Identificação de outliers em quantidades vendidas e descontos aplicados**.
+- 📊 **Relação entre variáveis-chave como preço, quantidade e desconto**.
+- 🌎 **Segmentação por região e plataforma**.
 
 ---
 
-### 2. Discrepâncias
+## 🎯 Objetivos Principais
 
-- **Quantidade Vendida**: Detectaram-se outliers em volumes significativamente maiores do que a média, que podem indicar vendas corporativas ou discrepâncias nos registros. Um boxplot foi elaborado para visualizar essas discrepâncias, evidenciando pontos fora do intervalo típico.
+✔️ **Consolidar dados de vendas para análise estratégica**.
 
-- **Descontos**: Alguns cupons proporcionaram descontos substanciais, reduzindo consideravelmente o valor final das vendas. Um gráfico de dispersão foi criado para explorar a relação entre descontos aplicados e receita final, ajudando a entender os impactos de tais promoções.
+✔️ **Gerar insights acionáveis para o fabricante**.
 
----
+✔️ **Identificar produtos mais populares por região**.
 
-### 3. Correlação entre Variáveis
-
-A matriz de correlação revelou os seguintes aspectos:
-
-- **Quantidade e Receita**: Forte correlação positiva, mostrando que maiores volumes de venda geram maior faturamento.
-- **Descontos e Receita**: Correlação moderada negativa, indicando que descontos elevados tendem a reduzir a receita unitária.
-- **Preço Unitário**: Pouca variação, refletindo uma política de preços estável.
+✔️ **Otimizar transporte e logística**.
 
 ---
 
-### 4. Segmentação de Vendas
+## 📂 Dados Analisados
 
-- **Por País**: A Austrália liderou como principal mercado, seguida por Canadá e Alemanha. Um gráfico de barras e um mapa interativo foram desenvolvidos para destacar os países com maior demanda.
+O conjunto analisado inclui informações de 60 transações com os seguintes detalhes:
 
-- **Por Plataforma**: O AliExpress liderou como o principal canal de vendas, enquanto o Shopee contribuiu de forma consistente, mas em menor proporção. Um gráfico de pizza foi utilizado para mostrar a participação de mercado de cada plataforma.
-
----
-
-## Recomendações
-
-- **Promoções Sazonais**:
-  - Investir em campanhas durante períodos de alta, como setembro e outubro.
-  - Avaliar a efetividade dos cupons para garantir aumento de vendas sem comprometer a margem de lucro.
-
-- **Foco nos Mercados Principais**:
-  - Expandir a presença na Austrália e explorar mais oportunidades em Canadá e Alemanha, com ações específicas de marketing.
-
-- **Otimização de Plataformas**:
-  - Priorizar o AliExpress como principal canal de vendas.
-  - Melhorar a experiência do usuário no Shopee para aumentar sua participação.
-
-- **Gestão de Outliers**:
-  - Revisar transações incomuns para assegurar a precisão dos dados e identificar pontos de otimização.
+- 🏷 **SKU** e **nome dos produtos vendidos**.
+- 📅 **Datas das vendas** e 🌍 **países de entrega**.
+- 📦 **Quantidades vendidas**, 💲 **preços unitários** e **valores totais**.
+- 🎟 **Descontos aplicados** e **cupons utilizados**.
+- 🛒 **Plataformas de venda** (ex.: AliExpress, Shopee).
 
 ---
 
-## Conclusão
+## 📊 Análise e Resultados
 
-Este relatório detalhou insights cruciais sobre vendas, destacando tendências, correlações e segmentações. As recomendações fornecem um caminho claro para maximizar receitas e fortalecer a presença no mercado. Gráficos como barras, boxplot, dispersão e pizza foram utilizados para visualizar os resultados e facilitar a tomada de decisões.
+### 1️⃣ Tendências Temporais
 
-A adoção dessas estratégias pode contribuir para o crescimento sustentável do fabricante.
+🔹 As vendas mensais demonstraram flutuações significativas:
+
+- **Pontos de Alta**: Setembro e outubro lideraram as vendas, impulsionados por sazonalidade e campanhas promocionais.
+- **Pontos de Baixa**: Meses como fevereiro registraram menor demanda.
+
+💡 *Insight*: Investir em promoções específicas nos meses de menor desempenho para equilibrar o fluxo de vendas.
+
+---
+
+### 2️⃣ Discrepâncias
+
+- **Outliers em Quantidade Vendida**: Algumas transações apresentaram volumes muito superiores à média, sugerindo vendas corporativas ou possíveis inconsistências.
+  - 🔍 *Visualização*: Um boxplot revelou concentrações em torno da mediana, com pontos fora do intervalo interquartil.
+
+- **Descontos Elevados**: Certos cupons impactaram drasticamente os valores finais, exigindo uma análise de custo-benefício.
+  - 🔍 *Visualização*: Um gráfico de dispersão mostrou como descontos afetaram a receita.
+
+---
+
+### 3️⃣ Produtos Mais Populares por País
+
+🔹 A análise identificou os produtos mais vendidos em cada região:
+
+| 🌍 **País**    | 🏷 **Produto Mais Vendido**     | 📦 **Unidades Vendidas** |
+|----------------|--------------------------------|-------------------------|
+| 🇦🇺 Austrália   | **NEW MEGANIUM RG CubeXX**     | 15                      |
+| 🇬🇧 Reino Unido | **NEW MEGANIUM RG35XX** / **RG353M** | 7 cada                 |
+| 🇩🇪 Alemanha    | **NEW MEGANIUM RG28XX**        | 12                      |
+| 🇨🇦 Canadá      | **NEW MEGANIUM RG 40XXV**      | 26                      |
+| 🇺🇸 EUA         | **MEGANIUM RG353M**            | 4                       |
+| 🇫🇷 França      | **NEW MEGANIUM RG35XX**        | 17                      |
+| 🇯🇵 Japão       | **NEW MEGANIUM RG 40XXV**      | 14                      |
+
+💡 *Recomendação*: Concentrar produção nos produtos mais procurados de cada país para atender à demanda local.
+
+---
+
+### 4️⃣ Segmentação por Plataforma
+
+🔹 As vendas foram dominadas pelo AliExpress, com participação significativa do Shopee:
+
+- 🥇 **AliExpress**: Principal canal de vendas.
+- 🥈 **Shopee**: Contribuição consistente, mas menor.
+
+💡 *Recomendação*: Priorizar o AliExpress como canal principal e melhorar a experiência do usuário no Shopee para expandir sua participação.
+
+---
+
+## 🚛 Otimização de Transporte e Logística
+
+🔹 **Unidades Totais Vendidas por País**:
+
+| 🌍 **País**    | 📦 **Unidades Vendidas** |
+|----------------|-------------------------|
+| 🇨🇦 Canadá      | 51                      |
+| 🇫🇷 França      | 45                      |
+| 🇦🇺 Austrália   | 33                      |
+| 🇩🇪 Alemanha    | 34                      |
+| 🇯🇵 Japão       | 30                      |
+| 🇬🇧 Reino Unido | 15                      |
+| 🇺🇸 EUA         | 5                       |
+
+📦 **Hubs Logísticos Recomendados**:
+- **América do Norte**: Centralizar envios no Canadá para atender Canadá e EUA.
+- **Europa**: França ou Alemanha como centro para a região.
+- **Ásia-Pacífico**: Austrália como hub principal.
+
+💡 *Estratégia*: Consolidar envios para mercados de alto volume e negociar fretes para reduzir custos.
+
+---
+
+## 🤝 Conclusão
+
+Com base nas análises realizadas:
+
+- **Promoções Sazonais**: Potencializar campanhas em meses de baixa demanda.
+- **Produção e Logística**: Ajustar produção para os mercados com maior demanda.
+- **Hubs Inteligentes**: Reduzir custos e melhorar eficiência com uma logística otimizada.
+
+🔹 A aplicação dessas estratégias ajudará a empresa a crescer de forma sustentável, maximizando lucros e eficiência operacional.
+
+---
